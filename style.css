@@ -1,0 +1,52 @@
+.bg
+{
+background-image: url("https://image.shutterstock.com/image-illustration/big-flat-screen-tv-hanging-600w-643896037.jpg");
+background-size:cover;
+background-position:center;
+font-family:cursive;
+}
+
+.start_b
+{
+position:fixed;
+bottom:100;
+font-size:30px;
+padding:5px;
+background-color:red;
+color:white;
+border:5px solid black;
+font-weight:bold;
+}
+
+#status
+{
+    position:fixed;
+    bottom:100;
+    color:white;
+    left:500;
+font-size:23px;
+padding:5px;
+background-color:green;
+border:5px solid black;
+font-weight:bold;
+}
+
+#no_objects
+{
+    position:fixed;
+    bottom:100;
+    right:450;
+    font-size:23px;
+padding:5px;
+background-color:rgb(247, 247, 157);
+border:5px solid black;
+font-weight:bold;
+}
+
+canvas
+{
+    border: 5px solid black;
+    width:600px;
+    background-color:white;
+    margin-top:-50;
+}
